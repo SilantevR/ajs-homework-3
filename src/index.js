@@ -1,9 +1,10 @@
-{ info} ;
-  const m ; ) '1.0.0',)(
-  m.set;), ,)(
-  m.set;)( '1.0.0')=
-  return m{
-)
+function info() {
+  const m = new Map();
+  m.set("name", "ajs");
+  m.set("version", "1.0.0");
+  return m;
+}
 
-( default  
+export default {
+  info,
 };
